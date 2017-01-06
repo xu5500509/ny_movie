@@ -177,7 +177,7 @@
             var t = $(e.target);
             var len = t.val().length;
             if(len>maxstrlen){
-                t.val(t.val().substring(0, maxstrlen-1)ss);
+                t.val(t.val().substring(0, maxstrlen-1));
             };
             t.parent().find('.size').text(len);
         }

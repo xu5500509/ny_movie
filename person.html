@@ -1,73 +1,76 @@
 <!doctype html>
 <html>
 <head>
-<meta http-equiv="content-type" content="text/html; charset=UTF-8" />
-<meta charset="utf-8" />
-<meta name="renderer" content="webkit" />
-<meta http-equiv="X-UA-Compatible" content="IE=edge" />
-<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no" />
-<meta name="description" content="" />
-<meta name="author" content="" />
-<meta name="format-detection" content="telephone=no" />
-<title>个人中心 - 富阳市学业评估提升中心</title>
-<link rel="stylesheet" type="text/css" href="style/style.css" />
-<script type="text/javascript" src="script/jquery.1.9.0.js"></script>
-<script type="text/javascript" src="script/common.js"></script>
-<script type="text/javascript" src="script/jquery.SuperSlide.2.1.js"></script>
+  <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+  <meta charset="utf-8" />
+  <meta name="renderer" content="webkit" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+  <meta name="description" content="" />
+  <meta name="author" content="" />
+  <meta name="format-detection" content="telephone=no" />
+  <title>个人信息 - 富阳市学业评估提升中心</title>
+  <link rel="stylesheet" type="text/css" href="style/style.css" />
+  <script type="text/javascript" src="script/jquery.1.9.0.js"></script>
+  <script type="text/javascript" src="script/common.js"></script>
+  <script type="text/javascript" src="script/jquery.SuperSlide.2.1.js"></script>
 </head>
 <body class="qky-xypg">
 <div class="head">
   <!--top login-->
   <div class="head-tit">
     <div class="w1000 clearfix ">
+      <!--已登陆-->
       <div class="head-tit-cont text-c1 clearfix">
-        <div class="f-l"> <a class="per-cen text-c-gre" href="person.html">个人中心</a> <a 
-
-class="exit text-c-gre">退出</a> </div>
+        <div class="f-l"> <a href="#" class="login-entr"></a> </div>
         <div class="f-l">
           <div class="s-box-wrap">
-            <div class="s-box p-r">
-              <input type="text" class="select text-c-666" value="张
-
-三" />
-              <ul class="s-list hid">
-                <li>小孩名-1</li>
-                <li>小孩名-2</li>
-                <li>小孩名-3</li>
-                <li>小孩名-4</li>
-              </ul>
-            </div>
+            <span>张三</span>
+            <!--<div class="s-box p-r">
+              <input type="text" class="select text-c-666" value="张三">
+            </div>-->
           </div>
         </div>
-        <div class="f-l"> <a href="#" class="login-entr"></a> </div>
-        <!--<div class="clear"></div>-->
+        <div class="f-l"> <a class="per-cen text-c-gre" href="person.html">个人中心</a>
+          <a class="exit text-c-gre">退出</a> </div>
       </div>
+      <!--未登陆-->
+      <div class="head-tit-cont text-c1 clearfix" style="display: none">
+        <div class="f-l top-login p-r">
+          <input type="text" value="请输入用户手机号" onclick="JavaScript:this.value=''"
+
+                 onblur="JavaScript:this.value='请输入用户手机号'" >
+          <input type="text" value="请输入用户密码" onclick="JavaScript:this.value=''"
+
+                 onblur="JavaScript:this.value='请输入用户密码'" >
+          <a class="btn-orange  btn-s1 p-a">登录</a>
+        </div>
+
+        <div class="f-l"> <a href="#" class="login-entr" id="login"></a> </div>
+      </div>
+
     </div>
   </div>
   <div class="nav-box fuyang">
-    <div class="w1000">
+    <div class="w1000 clearfix">
       <ul class="nav clearfix">
-        <li class="first"><a class="all-course">全部课程分类</a></li>
+        <li class="first"><a class="all-course">全部电影分类</a></li>
         <li><a  href="index.html">首页</a></li>
-        <li><a href="classroom.html">名师课堂</a></li>
-        <li><a href="teacher.html">授课名师</a></li>
+        <li><a href="vedio.html">电影</a></li>
+        <li><a href="new.html">最新电影</a></li>
+        <li><a href="hot.html">最火电影</a></li>
       </ul>
       <!--float div -->
       <div class="course-classify">
         <div class="e-classify">
-          <h3><a href="" target="_blank">小学阶段</a><span></span></h3>
-          <div class="m-classify"> <a href="" target="_blank">语文</a> <a href="" target="_blank">数学</a> <a href="" target="_blank">英语</a> <a href="" target="_blank">物理</a> <a href="" target="_blank">化学</a> <a href="" target="_blank">生物</a> <a href="" target="_blank">政治</a> <a href="" target="_blank">历史</a> <a href="" target="_blank">地理</a> </div>
-          <div class="s-classify" style="display: none;"> <a href="" target="_blank">语文</a> <a href="" target="_blank">数学</a> <a href="" target="_blank">英语</a> <a href="" target="_blank">物理</a> <a href="" target="_blank">化学</a> <a href="" target="_blank">生物</a> <a href="" target="_blank">政治</a> <a href="" target="_blank">历史</a> <a href="" target="_blank">地理</a> </div>
+          <h3><a href="" target="_blank">按类型</a><span></span></h3>
+          <div class="m-classify"> <a href="" target="_blank">爱情</a> <a href="" target="_blank">动画</a> <a href="" target="_blank">动作</a> <a href="" target="_blank">纪录片</a> <a href="" target="_blank">剧情</a> <a href="" target="_blank">科幻</a> <a href="" target="_blank">喜剧</a> <a href="" target="_blank">微电影</a> <a href="" target="_blank">伦理</a> </div>
+          <div class="s-classify" style="display: none;"> <a href="" target="_blank">爱情</a> <a href="" target="_blank">动画</a> <a href="" target="_blank">动作</a> <a href="" target="_blank">纪录片</a> <a href="" target="_blank">剧情</a> <a href="" target="_blank">科幻</a> <a href="" target="_blank">喜剧</a> <a href="" target="_blank">微电影</a> <a href="" target="_blank">伦理</a>  </div>
         </div>
         <div class="e-classify">
-          <h3><a href="" target="_blank">初中阶段</a><span></span></h3>
-          <div class="m-classify"> <a href="" target="_blank">语文</a> <a href="" target="_blank">数学</a> <a href="" target="_blank">英语</a> <a href="" target="_blank">物理</a> <a href="" target="_blank">化学</a> <a href="" target="_blank">生物</a> <a href="" target="_blank">政治</a> <a href="" target="_blank">历史</a> <a href="" target="_blank">地理</a> </div>
-          <div class="s-classify" style="display: none;"> <a href="" target="_blank">语文</a> <a href="" target="_blank">数学</a> <a href="" target="_blank">英语</a> <a href="" target="_blank">物理</a> <a href="" target="_blank">化学</a> <a href="" target="_blank">生物</a> <a href="" target="_blank">政治</a> <a href="" target="_blank">历史</a> <a href="" target="_blank">地理</a> </div>
-        </div>
-        <div class="e-classify">
-          <h3><a href="" target="_blank">高中阶段</a><span></span></h3>
-          <div class="m-classify"> <a href="" target="_blank">语文</a> <a href="" target="_blank">数学</a> <a href="" target="_blank">英语</a> <a href="" target="_blank">物理</a> <a href="" target="_blank">化学</a> <a href="" target="_blank">生物</a> <a href="" target="_blank">政治</a> <a href="" target="_blank">历史</a> <a href="" target="_blank">地理</a> </div>
-          <div class="s-classify" style="display: none;"> <a href="" target="_blank">语文</a> <a href="" target="_blank">数学</a> <a href="" target="_blank">英语</a> <a href="" target="_blank">物理</a> <a href="" target="_blank">化学</a> <a href="" target="_blank">生物</a> <a href="" target="_blank">政治</a> <a href="" target="_blank">历史</a> <a href="" target="_blank">地理</a> </div>
+          <h3><a href="" target="_blank">按地区</a><span></span></h3>
+          <div class="m-classify"> <a href="" target="_blank">韩国</a> <a href="" target="_blank">内地</a> <a href="" target="_blank">香港</a> <a href="" target="_blank">台湾</a> <a href="" target="_blank">美国</a> <a href="" target="_blank">欧洲</a> <a href="" target="_blank">法国</a> <a href="" target="_blank">日本</a> <a href="" target="_blank">泰国</a> </div>
+          <div class="s-classify" style="display: none;"> <a href="" target="_blank">韩国</a> <a href="" target="_blank">内地</a> <a href="" target="_blank">香港</a> <a href="" target="_blank">台湾</a> <a href="" target="_blank">美国</a> <a href="" target="_blank">欧洲</a> <a href="" target="_blank">法国</a> <a href="" target="_blank">日本</a> <a href="" target="_blank">泰国</a> </div>
         </div>
       </div>
     </div>
@@ -76,420 +79,167 @@ class="exit text-c-gre">退出</a> </div>
 <div class="ny-banner"></div>
 <div class="content">
   <div class="w1000">
+
     <div class="person">
-      <!--left part-->
       <div class="se1">
-        <div class="me box-3"> <img src="images/me.png" />
+        <div class="me box-3">
+          <img src="images/me.png" />
           <div class="txt">
             <p>学校：全通中学</p>
             <p>年级：初一（3）班</p>
             <p>姓名：章同学</p>
           </div>
         </div>
-        <div class="nav3"> <a href="person.html" class="on">学习中心</a> <a href="personBuy.html">订购记录</a> <a href="personInfo.html">个人信息</a> </div>
+        <div class="nav3 box-3">
+          <a href="person.html">个人信息</a>
+          <a href="personMessage.html">影评回复</a>
+        </div>
       </div>
-      <!--right part-->
       <div class="se2">
-        <div class="se2-1 tab-kc">
+        <div class="se2-1">
           <div class="hd">
-            <h2 class="tit-2">最新课程</h2>
-            <div class="list11"> <a href="javascript:;">语文</a> <a href="javascript:;">数学</a> <a href="javascript:;">英语</a> <a href="javascript:;">物理</a> <a href="javascript:;">化学</a> <a href="javascript:;">生物</a> <a href="javascript:;">政治</a> <a href="javascript:;">历史</a> <a href="javascript:;">地理</a> </div>
-            <a href="classroom.html" class="s2">更多</a> </div>
-          <div class="bd">
-            <div class="list13">
-              <div class="i">
-                <div class="a1"> <img src="images/skms-pic.png"/>
-                  <p>李老师</p>
-                </div>
-                <div class="a2 new"> <span class="date">发布日期：<b class="s1">2016-3-19</b></span>
-                  <h3>初一上学期</h3>
-                  <a href="classroomInfo.html">
-                  <p>名称：<span class="s1">第一章 1.1节有理数</span><i class="ico-play"></i></p>
-                  </a> </div>
+            <div id="tab">
+              <h2 class="tit-2">个人信息</h2>
+              <div class="list11 s1">
+                <a href="javascript:;">基本信息</a>
+                <a href="javascript:;">重置密码</a>
               </div>
-              <div class="i">
-                <div class="a1"> <img src="images/skms-pic.png"/>
-                  <p>李老师</p>
+              <div class="bd bd1">
+                <div class="i1">
+                  <div  class="list-5">
+                    <ul class="list15">
+                      <li>
+                        <span>姓名</span>
+                        <input type="text" value="章同学" readonly />
+                        <button class="edit"><b></b>修改</button>
+                        <button class="sure">确认修改</button>
+                      </li>
+                      <li>
+                        <span>昵称</span>
+                        <input type="text" value="章同学" readonly />
+                        <button class="edit"><b></b>修改</button>
+                        <button class="sure">确认修改</button>
+                      </li>
+                      <li>
+                        <span>地区</span>
+                        <input type="text" value="富阳市" readonly />
+                        <button class="edit"><b></b>修改</button>
+                        <button class="sure">确认修改</button>
+                      </li>
+                      <li>
+                        <span>学校</span>
+                        <input type="text" value="一中" readonly />
+                        <button class="edit"><b></b>修改</button>
+                        <button class="sure">确认修改</button>
+                      </li>
+                      <li>
+                        <span>年级</span>
+                        <input type="text" value="初一年级" class="w2" readonly />
+                        <span>班级</span>
+                        <input type="text" value="（2）班" class="w1" readonly />
+                        <button class="edit"><b></b>修改</button>
+                        <button class="sure">确认修改</button>
+                      </li>
+                      <li>
+                        <span>密码</span>
+                        <input type="password" value="123456" readonly />
+                        <button class="edit"><b></b>修改</button>
+                        <button class="sure">确认修改</button>
+                      </li>
+                      <li>
+                        <span>邮箱</span>
+                        <input type="text" value="423220336@qq.com" readonly />
+                        <button class="edit"><b></b>修改</button>
+                        <button class="sure">确认修改</button>
+                      </li>
+                      <li>
+                        <span>手机</span>
+                        <input type="text" value="15000000002" readonly />
+                        <button class="edit"><b></b>修改</button>
+                        <button class="sure">确认修改</button>
+                      </li>
+                    </ul>
+                  </div>
+
+
                 </div>
-                <div class="a2 new"> <span class="date">发布日期：<b class="s1">2016-3-19</b></span>
-                  <h3>初一上学期</h3>
-                  <a href="classroomInfo.html">
-                  <p>名称：<span class="s1">第一章 1.1节有理数</span><i class="ico-play"></i></p>
-                  </a> </div>
-              </div>
-              <div class="i">
-                <div class="a1"> <img src="images/skms-pic.png"/>
-                  <p>李老师</p>
+                <div class="i1">
+                  <div  class="list15">
+                    <table class="table-2">
+                      <tbody><tr>
+                        <th>
+                          <span style="color: red;margin:0px;padding:0px;">*</span>
+                          <span style="margin:0px;padding:0px;">当前密码</span>
+                        </th>
+                        <td>
+                          <input type="password" placeholder="请输入当前密码">
+                        </td>
+                      </tr>
+                      <tr>
+                        <th>
+                <span style="color:
+
+red;margin:0px;padding:0px;">*</span>
+                          <span style="margin:0px;padding:0px;">新 密 码</span>
+                        </th>
+                        <td>
+                          <input type="password" placeholder="请输入新密码">
+                        </td>
+                      </tr>
+                      <tr>
+                        <th>
+                <span style="color:
+
+red;margin:0px;padding:0px;">*</span>
+                          <span style="margin:0px;padding:0px;">确认密码</span>
+                        </th>
+                        <td>
+                          <input type="password" placeholder="请再次输入新密码">
+                        </td>
+                      </tr>
+                      <tr>
+                        <td colspan="2" class="tdCenter">
+                          <button class="btn-orange btn-s1">确定</button>
+                          <button class="btn-green btn-s1">重置</button>
+                        </td>
+                      </tr>
+                      </tbody></table>
+                  </div>
+
+
                 </div>
-                <div class="a2 new"> <span class="date">发布日期：<b class="s1">2016-3-19</b></span>
-                  <h3>初一上学期</h3>
-                  <a href="classroomInfo.html">
-                  <p>名称：<span class="s1">第一章 1.1节有理数</span><i class="ico-play"></i></p>
-                  </a> </div>
-              </div>
-              <div class="i">
-                <div class="a1"> <img src="images/skms-pic.png"/>
-                  <p>李老师</p>
-                </div>
-                <div class="a2 new"> <span class="date">发布日期：<b class="s1">2016-3-19</b></span>
-                  <h3>初一上学期</h3>
-                  <a href="classroomInfo.html">
-                  <p>名称：<span class="s1">第一章 1.1节有理数</span><i class="ico-play"></i></p>
-                  </a> </div>
-              </div>
-            </div>
-            <div class="list13">
-              <div class="i">
-                <div class="a1"> <img src="images/skms-pic.png"/>
-                  <p>李老师</p>
-                </div>
-                <div class="a2 new"> <span class="date">发布日期：<b class="s1">2016-3-19</b></span>
-                  <h3>初一上学期</h3>
-                  <a href="classroomInfo.html">
-                  <p>名称：<span class="s1">第一章 1.1节有理数</span><i class="ico-play"></i></p>
-                  </a> </div>
-              </div>
-              <div class="i">
-                <div class="a1"> <img src="images/skms-pic.png"/>
-                  <p>李老师</p>
-                </div>
-                <div class="a2 new"> <span class="date">发布日期：<b class="s1">2016-3-19</b></span>
-                  <h3>初一上学期</h3>
-                  <a href="classroomInfo.html">
-                  <p>名称：<span class="s1">第一章 1.1节有理数</span><i class="ico-play"></i></p>
-                  </a> </div>
-              </div>
-              <div class="i">
-                <div class="a1"> <img src="images/skms-pic.png"/>
-                  <p>李老师</p>
-                </div>
-                <div class="a2 new"> <span class="date">发布日期：<b class="s1">2016-3-19</b></span>
-                  <h3>初一上学期</h3>
-                  <a href="classroomInfo.html">
-                  <p>名称：<span class="s1">第一章 1.1节有理数</span><i class="ico-play"></i></p>
-                  </a> </div>
-              </div>
-              <div class="i">
-                <div class="a1"> <img src="images/skms-pic.png"/>
-                  <p>李老师</p>
-                </div>
-                <div class="a2 new"> <span class="date">发布日期：<b class="s1">2016-3-19</b></span>
-                  <h3>初一上学期</h3>
-                  <a href="classroomInfo.html">
-                  <p>名称：<span class="s1">第一章 1.1节有理数</span><i class="ico-play"></i></p>
-                  </a> </div>
-              </div>
-            </div>
-            <div class="list13">
-              <div class="i">
-                <div class="a1"> <img src="images/skms-pic.png"/>
-                  <p>李老师</p>
-                </div>
-                <div class="a2 new"> <span class="date">发布日期：<b class="s1">2016-3-19</b></span>
-                  <h3>初一上学期</h3>
-                  <a href="classroomInfo.html">
-                  <p>名称：<span class="s1">第一章 1.1节有理数</span><i class="ico-play"></i></p>
-                  </a> </div>
-              </div>
-              <div class="i">
-                <div class="a1"> <img src="images/skms-pic.png"/>
-                  <p>李老师</p>
-                </div>
-                <div class="a2 new"> <span class="date">发布日期：<b class="s1">2016-3-19</b></span>
-                  <h3>初一上学期</h3>
-                  <a href="classroomInfo.html">
-                  <p>名称：<span class="s1">第一章 1.1节有理数</span><i class="ico-play"></i></p>
-                  </a> </div>
-              </div>
-              <div class="i">
-                <div class="a1"> <img src="images/skms-pic.png"/>
-                  <p>李老师</p>
-                </div>
-                <div class="a2 new"> <span class="date">发布日期：<b class="s1">2016-3-19</b></span>
-                  <h3>初一上学期</h3>
-                  <a href="classroomInfo.html">
-                  <p>名称：<span class="s1">第一章 1.1节有理数</span><i class="ico-play"></i></p>
-                  </a> </div>
-              </div>
-              <div class="i">
-                <div class="a1"> <img src="images/skms-pic.png"/>
-                  <p>李老师</p>
-                </div>
-                <div class="a2 new"> <span class="date">发布日期：<b class="s1">2016-3-19</b></span>
-                  <h3>初一上学期</h3>
-                  <a href="classroomInfo.html">
-                  <p>名称：<span class="s1">第一章 1.1节有理数</span><i class="ico-play"></i></p>
-                  </a> </div>
-              </div>
-            </div>
-            <div class="list13">
-              <div class="i">
-                <div class="a1"> <img src="images/skms-pic.png"/>
-                  <p>李老师</p>
-                </div>
-                <div class="a2 new"> <span class="date">发布日期：<b class="s1">2016-3-19</b></span>
-                  <h3>初一上学期</h3>
-                  <a href="classroomInfo.html">
-                  <p>名称：<span class="s1">第一章 1.1节有理数</span><i class="ico-play"></i></p>
-                  </a> </div>
-              </div>
-              <div class="i">
-                <div class="a1"> <img src="images/skms-pic.png"/>
-                  <p>李老师</p>
-                </div>
-                <div class="a2 new"> <span class="date">发布日期：<b class="s1">2016-3-19</b></span>
-                  <h3>初一上学期</h3>
-                  <a href="classroomInfo.html">
-                  <p>名称：<span class="s1">第一章 1.1节有理数</span><i class="ico-play"></i></p>
-                  </a> </div>
-              </div>
-              <div class="i">
-                <div class="a1"> <img src="images/skms-pic.png"/>
-                  <p>李老师</p>
-                </div>
-                <div class="a2 new"> <span class="date">发布日期：<b class="s1">2016-3-19</b></span>
-                  <h3>初一上学期</h3>
-                  <a href="classroomInfo.html">
-                  <p>名称：<span class="s1">第一章 1.1节有理数</span><i class="ico-play"></i></p>
-                  </a> </div>
-              </div>
-              <div class="i">
-                <div class="a1"> <img src="images/skms-pic.png"/>
-                  <p>李老师</p>
-                </div>
-                <div class="a2 new"> <span class="date">发布日期：<b class="s1">2016-3-19</b></span>
-                  <h3>初一上学期</h3>
-                  <a href="classroomInfo.html">
-                  <p>名称：<span class="s1">第一章 1.1节有理数</span><i class="ico-play"></i></p>
-                  </a> </div>
-              </div>
-            </div>
-            <div class="list13">
-              <div class="i">
-                <div class="a1"> <img src="images/skms-pic.png"/>
-                  <p>李老师</p>
-                </div>
-                <div class="a2 new"> <span class="date">发布日期：<b class="s1">2016-3-19</b></span>
-                  <h3>初一上学期</h3>
-                  <a href="classroomInfo.html">
-                  <p>名称：<span class="s1">第一章 1.1节有理数</span><i class="ico-play"></i></p>
-                  </a> </div>
-              </div>
-              <div class="i">
-                <div class="a1"> <img src="images/skms-pic.png"/>
-                  <p>李老师</p>
-                </div>
-                <div class="a2 new"> <span class="date">发布日期：<b class="s1">2016-3-19</b></span>
-                  <h3>初一上学期</h3>
-                  <a href="classroomInfo.html">
-                  <p>名称：<span class="s1">第一章 1.1节有理数</span><i class="ico-play"></i></p>
-                  </a> </div>
-              </div>
-              <div class="i">
-                <div class="a1"> <img src="images/skms-pic.png"/>
-                  <p>李老师</p>
-                </div>
-                <div class="a2 new"> <span class="date">发布日期：<b class="s1">2016-3-19</b></span>
-                  <h3>初一上学期</h3>
-                  <a href="classroomInfo.html">
-                  <p>名称：<span class="s1">第一章 1.1节有理数</span><i class="ico-play"></i></p>
-                  </a> </div>
-              </div>
-              <div class="i">
-                <div class="a1"> <img src="images/skms-pic.png"/>
-                  <p>李老师</p>
-                </div>
-                <div class="a2 new"> <span class="date">发布日期：<b class="s1">2016-3-19</b></span>
-                  <h3>初一上学期</h3>
-                  <a href="classroomInfo.html">
-                  <p>名称：<span class="s1">第一章 1.1节有理数</span><i class="ico-play"></i></p>
-                  </a> </div>
-              </div>
-            </div>
-            <div class="list13">
-              <div class="i">
-                <div class="a1"> <img src="images/skms-pic.png"/>
-                  <p>李老师</p>
-                </div>
-                <div class="a2 new"> <span class="date">发布日期：<b class="s1">2016-3-19</b></span>
-                  <h3>初一上学期</h3>
-                  <a href="classroomInfo.html">
-                  <p>名称：<span class="s1">第一章 1.1节有理数</span><i class="ico-play"></i></p>
-                  </a> </div>
-              </div>
-              <div class="i">
-                <div class="a1"> <img src="images/skms-pic.png"/>
-                  <p>李老师</p>
-                </div>
-                <div class="a2 new"> <span class="date">发布日期：<b class="s1">2016-3-19</b></span>
-                  <h3>初一上学期</h3>
-                  <a href="classroomInfo.html">
-                  <p>名称：<span class="s1">第一章 1.1节有理数</span><i class="ico-play"></i></p>
-                  </a> </div>
-              </div>
-              <div class="i">
-                <div class="a1"> <img src="images/skms-pic.png"/>
-                  <p>李老师</p>
-                </div>
-                <div class="a2 new"> <span class="date">发布日期：<b class="s1">2016-3-19</b></span>
-                  <h3>初一上学期</h3>
-                  <a href="classroomInfo.html">
-                  <p>名称：<span class="s1">第一章 1.1节有理数</span><i class="ico-play"></i></p>
-                  </a> </div>
-              </div>
-              <div class="i">
-                <div class="a1"> <img src="images/skms-pic.png"/>
-                  <p>李老师</p>
-                </div>
-                <div class="a2 new"> <span class="date">发布日期：<b class="s1">2016-3-19</b></span>
-                  <h3>初一上学期</h3>
-                  <a href="classroomInfo.html">
-                  <p>名称：<span class="s1">第一章 1.1节有理数</span><i class="ico-play"></i></p>
-                  </a> </div>
-              </div>
-            </div>
-            <div class="list13">
-              <div class="i">
-                <div class="a1"> <img src="images/skms-pic.png"/>
-                  <p>李老师</p>
-                </div>
-                <div class="a2 new"> <span class="date">发布日期：<b class="s1">2016-3-19</b></span>
-                  <h3>初一上学期</h3>
-                  <a href="classroomInfo.html">
-                  <p>名称：<span class="s1">第一章 1.1节有理数</span><i class="ico-play"></i></p>
-                  </a> </div>
-              </div>
-              <div class="i">
-                <div class="a1"> <img src="images/skms-pic.png"/>
-                  <p>李老师</p>
-                </div>
-                <div class="a2 new"> <span class="date">发布日期：<b class="s1">2016-3-19</b></span>
-                  <h3>初一上学期</h3>
-                  <a href="classroomInfo.html">
-                  <p>名称：<span class="s1">第一章 1.1节有理数</span><i class="ico-play"></i></p>
-                  </a> </div>
-              </div>
-              <div class="i">
-                <div class="a1"> <img src="images/skms-pic.png"/>
-                  <p>李老师</p>
-                </div>
-                <div class="a2 new"> <span class="date">发布日期：<b class="s1">2016-3-19</b></span>
-                  <h3>初一上学期</h3>
-                  <a href="classroomInfo.html">
-                  <p>名称：<span class="s1">第一章 1.1节有理数</span><i class="ico-play"></i></p>
-                  </a> </div>
-              </div>
-              <div class="i">
-                <div class="a1"> <img src="images/skms-pic.png"/>
-                  <p>李老师</p>
-                </div>
-                <div class="a2 new"> <span class="date">发布日期：<b class="s1">2016-3-19</b></span>
-                  <h3>初一上学期</h3>
-                  <a href="classroomInfo.html">
-                  <p>名称：<span class="s1">第一章 1.1节有理数</span><i class="ico-play"></i></p>
-                  </a> </div>
-              </div>
-            </div>
-            <div class="list13">
-              <div class="i">
-                <div class="a1"> <img src="images/skms-pic.png"/>
-                  <p>李老师</p>
-                </div>
-                <div class="a2 new"> <span class="date">发布日期：<b class="s1">2016-3-19</b></span>
-                  <h3>初一上学期</h3>
-                  <a href="classroomInfo.html">
-                  <p>名称：<span class="s1">第一章 1.1节有理数</span><i class="ico-play"></i></p>
-                  </a> </div>
-              </div>
-              <div class="i">
-                <div class="a1"> <img src="images/skms-pic.png"/>
-                  <p>李老师</p>
-                </div>
-                <div class="a2 new"> <span class="date">发布日期：<b class="s1">2016-3-19</b></span>
-                  <h3>初一上学期</h3>
-                  <a href="classroomInfo.html">
-                  <p>名称：<span class="s1">第一章 1.1节有理数</span><i class="ico-play"></i></p>
-                  </a> </div>
-              </div>
-              <div class="i">
-                <div class="a1"> <img src="images/skms-pic.png"/>
-                  <p>李老师</p>
-                </div>
-                <div class="a2 new"> <span class="date">发布日期：<b class="s1">2016-3-19</b></span>
-                  <h3>初一上学期</h3>
-                  <a href="classroomInfo.html">
-                  <p>名称：<span class="s1">第一章 1.1节有理数</span><i class="ico-play"></i></p>
-                  </a> </div>
-              </div>
-              <div class="i">
-                <div class="a1"> <img src="images/skms-pic.png"/>
-                  <p>李老师</p>
-                </div>
-                <div class="a2 new"> <span class="date">发布日期：<b class="s1">2016-3-19</b></span>
-                  <h3>初一上学期</h3>
-                  <a href="classroomInfo.html">
-                  <p>名称：<span class="s1">第一章 1.1节有理数</span><i class="ico-play"></i></p>
-                  </a> </div>
-              </div>
-            </div>
-            <div class="list13">
-              <div class="i">
-                <div class="a1"> <img src="images/skms-pic.png"/>
-                  <p>李老师</p>
-                </div>
-                <div class="a2 new"> <span class="date">发布日期：<b class="s1">2016-3-19</b></span>
-                  <h3>初一上学期</h3>
-                  <a href="classroomInfo.html">
-                  <p>名称：<span class="s1">第一章 1.1节有理数</span><i class="ico-play"></i></p>
-                  </a> </div>
-              </div>
-              <div class="i">
-                <div class="a1"> <img src="images/skms-pic.png"/>
-                  <p>李老师</p>
-                </div>
-                <div class="a2 new"> <span class="date">发布日期：<b class="s1">2016-3-19</b></span>
-                  <h3>初一上学期</h3>
-                  <a href="classroomInfo.html">
-                  <p>名称：<span class="s1">第一章 1.1节有理数</span><i class="ico-play"></i></p>
-                  </a> </div>
-              </div>
-              <div class="i">
-                <div class="a1"> <img src="images/skms-pic.png"/>
-                  <p>李老师</p>
-                </div>
-                <div class="a2 new"> <span class="date">发布日期：<b class="s1">2016-3-19</b></span>
-                  <h3>初一上学期</h3>
-                  <a href="classroomInfo.html">
-                  <p>名称：<span class="s1">第一章 1.1节有理数</span><i class="ico-play"></i></p>
-                  </a> </div>
-              </div>
-              <div class="i">
-                <div class="a1"> <img src="images/skms-pic.png"/>
-                  <p>李老师</p>
-                </div>
-                <div class="a2 new"> <span class="date">发布日期：<b class="s1">2016-3-19</b></span>
-                  <h3>初一上学期</h3>
-                  <a href="classroomInfo.html">
-                  <p>名称：<span class="s1">第一章 1.1节有理数</span><i class="ico-play"></i></p>
-                  </a> </div>
+
               </div>
             </div>
           </div>
         </div>
+
       </div>
+
+
     </div>
   </div>
-</div>
-<div class="footer">
-  <div class="w1000 footer-cont">
-    <p>Copyright1999-2016 广东全通教育股份有限公司 版权所有</p>
-    <p> 中华人民共和国增值电信业务经营许可证 经营许可证编号：A2.B1.B2-
-      20100001</p>
+  <div class="footer">
+    <div class="w1000 footer-cont">
+      <p>Copyright1999-2016 广东全通教育股份有限公司 版权所有</p>
+      <p> 中华人民共和国增值电信业务经营许可证 经营许可证编号：A2.B1.B2-
+        20100001</p>
+    </div>
   </div>
-</div>
-<script type="text/javascript">
-    $(".tab-kc").slide({ titCell:".list11 a", mainCell:".bd",effect:"left",delayTime:600,interTime:5000 });
-    $(".tab-tj").slide({ titCell:".list11 a", mainCell:".bd",effect:"left",delayTime:600,interTime:5000 });
-</script>
+
+
+  <script type="text/javascript">
+    $("#tab").slide({ titCell:".list11 a", mainCell:".bd",trigger:'click',effect:"left",delayTime:600,interTime:5000 });
+    $('.list15').click(function(e){
+      var t = $(e.target);
+      if(t.hasClass('edit')){
+        t.hide().next().show().closest('li').find('input').addClass('readonly').removeAttr('readonly').eq(0).focus();
+      }else if(t.hasClass('sure')){
+        t.hide().prev().show().closest('li').find('input').removeClass('readonly').attr('readonly','true');
+      };
+    });
+
+
+  </script>
 </body>
 </html>

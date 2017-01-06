@@ -75,7 +75,7 @@
         <div id='videoArea'></div>
 
 
-        <!-- 答疑讨论 -->
+        <!-- 发表影评 -->
         <div class="box-6">
             <h2 class="tit-2">发表影评</h2>
             <div class="replay-text">
@@ -177,7 +177,7 @@
             var t = $(e.target);
             var len = t.val().length;
             if(len>maxstrlen){
-                t.val(t.val().substring(0, maxstrlen-1));
+                t.val(t.val().substring(0, maxstrlen-1)ss);
             };
             t.parent().find('.size').text(len);
         }

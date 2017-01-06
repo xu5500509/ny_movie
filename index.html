@@ -9,7 +9,7 @@
 <meta name="description" content="">
 <meta name="author" content="">
 <meta name="format-detection" content="telephone=no" />
-<title>首页 - 富阳市学业评估提升中心</title>
+<title>首页 - 电影论坛系统</title>
 <link rel="stylesheet" type="text/css" href="style/style.css" />
 <script type="text/javascript" src="script/jquery.1.9.0.js"></script>
 <script type="text/javascript" src="script/common.js"></script>
@@ -20,53 +20,57 @@
   <!--top login-->
   <div class="head-tit">
     <div class="w1000 clearfix ">
+      <!--已登陆-->
       <div class="head-tit-cont text-c1 clearfix">
         <div class="f-l"> <a href="#" class="login-entr"></a> </div>
         <div class="f-l">
           <div class="s-box-wrap">
-            <div class="s-box p-r">
-              <input type="text" class="select text-c-666" value="张
-
-三">
-              <ul class="s-list hid">
-                <li>小孩名-1</li>
-                <li>小孩名-2</li>
-                <li>小孩名-3</li>
-                <li>小孩名-4</li>
-              </ul>
-            </div>
+            <span>张三</span>
+            <!--<div class="s-box p-r">
+              <input type="text" class="select text-c-666" value="张三">
+            </div>-->
           </div>
         </div>
-        <div class="f-l"> <a class="per-cen text-c-gre" href="person.html">个人中心</a> <a 
-
-class="exit text-c-gre">退出</a> </div>
+        <div class="f-l"> <a class="per-cen text-c-gre" href="person.html">个人中心</a>
+          <a class="exit text-c-gre">退出</a> </div>
       </div>
+      <!--未登陆-->
+      <div class="head-tit-cont text-c1 clearfix" style="display: none">
+        <div class="f-l top-login p-r">
+          <input type="text" value="请输入用户手机号" onclick="JavaScript:this.value=''"
+
+                 onblur="JavaScript:this.value='请输入用户手机号'" >
+          <input type="text" value="请输入用户密码" onclick="JavaScript:this.value=''"
+
+                 onblur="JavaScript:this.value='请输入用户密码'" >
+          <a class="btn-orange  btn-s1 p-a">登录</a>
+        </div>
+
+        <div class="f-l"> <a href="#" class="login-entr" id="login"></a> </div>
+      </div>
+
     </div>
   </div>
   <div class="nav-box fuyang">
     <div class="w1000 clearfix">
       <ul class="nav clearfix">
-        <li class="first"><a class="all-course">全部课程分类</a></li>
+        <li class="first"><a class="all-course">全部电影分类</a></li>
         <li><a  href="index.html">首页</a></li>
-        <li><a href="classroom.html">专题讲座</a></li>
-        <li><a href="teacher.html">授课名师</a></li>
+        <li><a href="vedio.html">电影</a></li>
+        <li><a href="new.html">最新电影</a></li>
+        <li><a href="hot.html">最火电影</a></li>
       </ul>
       <!--float div -->
       <div class="course-classify">
         <div class="e-classify">
-          <h3><a href="" target="_blank">小学阶段</a><span></span></h3>
-          <div class="m-classify"> <a href="" target="_blank">语文</a> <a href="" target="_blank">数学</a> <a href="" target="_blank">英语</a> <a href="" target="_blank">物理</a> <a href="" target="_blank">化学</a> <a href="" target="_blank">生物</a> <a href="" target="_blank">政治</a> <a href="" target="_blank">历史</a> <a href="" target="_blank">地理</a> </div>
-          <div class="s-classify" style="display: none;"> <a href="" target="_blank">语文</a> <a href="" target="_blank">数学</a> <a href="" target="_blank">英语</a> <a href="" target="_blank">物理</a> <a href="" target="_blank">化学</a> <a href="" target="_blank">生物</a> <a href="" target="_blank">政治</a> <a href="" target="_blank">历史</a> <a href="" target="_blank">地理</a> </div>
+          <h3><a href="" target="_blank">按类型</a><span></span></h3>
+          <div class="m-classify"> <a href="" target="_blank">爱情</a> <a href="" target="_blank">动画</a> <a href="" target="_blank">动作</a> <a href="" target="_blank">纪录片</a> <a href="" target="_blank">剧情</a> <a href="" target="_blank">科幻</a> <a href="" target="_blank">喜剧</a> <a href="" target="_blank">微电影</a> <a href="" target="_blank">伦理</a> </div>
+          <div class="s-classify" style="display: none;"> <a href="" target="_blank">爱情</a> <a href="" target="_blank">动画</a> <a href="" target="_blank">动作</a> <a href="" target="_blank">纪录片</a> <a href="" target="_blank">剧情</a> <a href="" target="_blank">科幻</a> <a href="" target="_blank">喜剧</a> <a href="" target="_blank">微电影</a> <a href="" target="_blank">伦理</a>  </div>
         </div>
         <div class="e-classify">
-          <h3><a href="" target="_blank">初中阶段</a><span></span></h3>
-          <div class="m-classify"> <a href="" target="_blank">语文</a> <a href="" target="_blank">数学</a> <a href="" target="_blank">英语</a> <a href="" target="_blank">物理</a> <a href="" target="_blank">化学</a> <a href="" target="_blank">生物</a> <a href="" target="_blank">政治</a> <a href="" target="_blank">历史</a> <a href="" target="_blank">地理</a> </div>
-          <div class="s-classify" style="display: none;"> <a href="" target="_blank">语文</a> <a href="" target="_blank">数学</a> <a href="" target="_blank">英语</a> <a href="" target="_blank">物理</a> <a href="" target="_blank">化学</a> <a href="" target="_blank">生物</a> <a href="" target="_blank">政治</a> <a href="" target="_blank">历史</a> <a href="" target="_blank">地理</a> </div>
-        </div>
-        <div class="e-classify">
-          <h3><a href="" target="_blank">高中阶段</a><span></span></h3>
-          <div class="m-classify"> <a href="" target="_blank">语文</a> <a href="" target="_blank">数学</a> <a href="" target="_blank">英语</a> <a href="" target="_blank">物理</a> <a href="" target="_blank">化学</a> <a href="" target="_blank">生物</a> <a href="" target="_blank">政治</a> <a href="" target="_blank">历史</a> <a href="" target="_blank">地理</a> </div>
-          <div class="s-classify" style="display: none;"> <a href="" target="_blank">语文</a> <a href="" target="_blank">数学</a> <a href="" target="_blank">英语</a> <a href="" target="_blank">物理</a> <a href="" target="_blank">化学</a> <a href="" target="_blank">生物</a> <a href="" target="_blank">政治</a> <a href="" target="_blank">历史</a> <a href="" target="_blank">地理</a> </div>
+          <h3><a href="" target="_blank">按地区</a><span></span></h3>
+          <div class="m-classify"> <a href="" target="_blank">韩国</a> <a href="" target="_blank">内地</a> <a href="" target="_blank">香港</a> <a href="" target="_blank">台湾</a> <a href="" target="_blank">美国</a> <a href="" target="_blank">欧洲</a> <a href="" target="_blank">法国</a> <a href="" target="_blank">日本</a> <a href="" target="_blank">泰国</a> </div>
+          <div class="s-classify" style="display: none;"> <a href="" target="_blank">韩国</a> <a href="" target="_blank">内地</a> <a href="" target="_blank">香港</a> <a href="" target="_blank">台湾</a> <a href="" target="_blank">美国</a> <a href="" target="_blank">欧洲</a> <a href="" target="_blank">法国</a> <a href="" target="_blank">日本</a> <a href="" target="_blank">泰国</a> </div>
         </div>
       </div>
     </div>
@@ -78,8 +82,8 @@ class="exit text-c-gre">退出</a> </div>
     <div id="pic">
       <ul>
         <li><a href="javascript:;" target="_blank" style="background-image:url(images/index/2.jpg);"></a></li>
+        <li><a href="javascript:;" target="_blank" style="background-image:url(images/index/6.jpg);"></a></li>
         <li><a href="javascript:;" target="_blank" style="background-image:url(images/index/3.jpg);"></a></li>
-        <li><a href="javascript:;" target="_blank" style="background-image:url(images/index/4.jpg);"></a></li>
         <li><a href="javascript:;" target="_blank" style="background-image:url(images/index/5.jpg);"></a></li>
       </ul>
     </div>
@@ -102,7 +106,7 @@ class="exit text-c-gre">退出</a> </div>
   <script type="text/javascript">$(".focus").slide({ titCell:"#tip li", mainCell:"#pic ul",effect:"left",autoPlay:true,delayTime:500,interTime:5000 });</script>
 </div>
 <!--ccontent-->
-<!--part1 -->
+<!--part1 电影搜索 -->
 <div class="sx-home-wrap box-bg1">
   <div class="w1000 clearfix">
     <div class="sx-home-tit">
@@ -138,64 +142,64 @@ class="exit text-c-gre">退出</a> </div>
   <div class="w1000 clearfix">
     <div class="sx-home-tit home-tit2">
       <div class="text box-bg2 skms">
-        <h4>授课名师</h4>
-        <h6>Teaching famous teacher</h6>
-      </div>
-    </div>
-    <h3 class="title p-r">&nbsp;<a href="#" class="more p-a m-c1">更多>></a></h3>
-    <ul class="list-tea">
-      <li>
-        <Img src="images/home-teahead.png"/>
-        <div class="name-box p-a"></div>
-        <div class="name p-a"><span class="f-l">张三老师</span><div class="f-r">学科：语文</div> </div>
-      </li>
-      <li>
-        <Img src="images/home-teahead.png"/>
-        <div class="name-box p-a"></div>
-        <div class="name p-a"><span class="f-l">张三老师</span><div class="f-r">学科：语文</div> </div>
-      </li>
-      <li>
-        <Img src="images/home-teahead.png"/>
-        <div class="name-box p-a"></div>
-        <div class="name p-a"><span class="f-l">张三老师</span><div class="f-r">学科：语文</div> </div>
-      </li>
-      <li>
-        <Img src="images/home-teahead.png"/>
-        <div class="name-box p-a"></div>
-        <div class="name p-a"><span class="f-l">张三老师</span><div class="f-r">学科：语文</div> </div>
-      </li>
-    </ul>
-  </div>
-</div>
-<!--part3 -->
-<div class="sx-home-wrap box-bg1">
-  <div class="w1000 clearfix">
-    <div class="sx-home-tit">
-      <div class="text box-bg1 ztjz">
-        <h4>专题讲座</h4>
-        <h6>Teacher classroom</h6>
+        <h4>最新电影</h4>
+        <h6>new movie</h6>
       </div>
     </div>
     <h3 class="title p-r">&nbsp;<a href="#" class="more p-a m-c1">更多>></a></h3>
     <ul class="list-chair">
       <li>
-        <div class="top"><img src="images/vedio.png"/> </div>
-        <p class="mid "><span class="f-l hid-t">知识-点名称名称名称名称名称</span><a class="try-l f-r">试听</a></p>
+        <div class="top"><img style="height: 258px" src="images/index/x-man.jpg"/> </div>
+        <p class="mid "><span class="f-l hid-t">X-Men</span><a class="try-l f-r">观看</a></p>
         <p class="bot"><span class="f-l">初中 语文 </span><span class="f-r">观看人数：<em>123</em></span></p>
       </li>
       <li>
-        <div class="top"><img src="images/vedio.png"/> </div>
-        <p class="mid "><span class="f-l hid-t">知识-点名称名称名称名称名称</span><a class="try-l f-r">试听</a></p>
+        <div class="top"><img style="height: 258px" src="images/index/Civil_War.jpg"/> </div>
+        <p class="mid "><span class="f-l hid-t">Civil War</span><a class="try-l f-r">观看</a></p>
         <p class="bot"><span class="f-l">初中 语文 </span><span class="f-r">观看人数：<em>123</em></span></p>
       </li>
       <li>
-        <div class="top"><img src="images/vedio.png"/> </div>
-        <p class="mid "><span class="f-l hid-t">知识-点名称名称名称名称名称</span><a class="try-l f-r">试听</a></p>
+        <div class="top"><img style="height: 258px" src="images/index/Peter.jpg"/> </div>
+        <p class="mid "><span class="f-l hid-t">Peter</span><a class="try-l f-r">观看</a></p>
         <p class="bot"><span class="f-l">初中 语文 </span><span class="f-r">观看人数：<em>123</em></span></p>
       </li>
       <li>
-        <div class="top"><img src="images/vedio.png"/> </div>
-        <p class="mid "><span class="f-l hid-t">知识-点名称名称名称名称名称</span><a class="try-l f-r">试听</a></p>
+        <div class="top"><img style="height: 258px" src="images/index/Citizen_Soldier.jpg"/> </div>
+        <p class="mid "><span class="f-l hid-t">Citizen Soldier</span><a class="try-l f-r">观看</a></p>
+        <p class="bot"><span class="f-l">初中 语文 </span><span class="f-r">观看人数：<em>123</em></span></p>
+      </li>
+    </ul>
+  </div>
+</div>
+<!--part3 热门电影-->
+<div class="sx-home-wrap box-bg1">
+  <div class="w1000 clearfix">
+    <div class="sx-home-tit">
+      <div class="text box-bg1 ztjz">
+        <h4>热门电影</h4>
+        <h6>popular movie</h6>
+      </div>
+    </div>
+    <h3 class="title p-r">&nbsp;<a href="#" class="more p-a m-c1">更多>></a></h3>
+    <ul class="list-chair">
+      <li>
+        <div class="top"><img style="height: 258px" src="images/index/x-man.jpg"/> </div>
+        <p class="mid "><span class="f-l hid-t">X-Men</span><a class="try-l f-r">观看</a></p>
+        <p class="bot"><span class="f-l">初中 语文 </span><span class="f-r">观看人数：<em>123</em></span></p>
+      </li>
+      <li>
+        <div class="top"><img style="height: 258px" src="images/index/Civil_War.jpg"/> </div>
+        <p class="mid "><span class="f-l hid-t">Civil War</span><a class="try-l f-r">观看</a></p>
+        <p class="bot"><span class="f-l">初中 语文 </span><span class="f-r">观看人数：<em>123</em></span></p>
+      </li>
+      <li>
+        <div class="top"><img style="height: 258px" src="images/index/Peter.jpg"/> </div>
+        <p class="mid "><span class="f-l hid-t">Peter</span><a class="try-l f-r">观看</a></p>
+        <p class="bot"><span class="f-l">初中 语文 </span><span class="f-r">观看人数：<em>123</em></span></p>
+      </li>
+      <li>
+        <div class="top"><img style="height: 258px" src="images/index/Citizen_Soldier.jpg"/> </div>
+        <p class="mid "><span class="f-l hid-t">Citizen Soldier</span><a class="try-l f-r">观看</a></p>
         <p class="bot"><span class="f-l">初中 语文 </span><span class="f-r">观看人数：<em>123</em></span></p>
       </li>
     </ul>

@@ -64,7 +64,7 @@ $(function(){
 
 
     // 菜单加on
-    var navarr = [['classroom',3],['teacher',4]];
+    var navarr = [['vedio',3],['new',4],['hot',5]];
     for(var i = 0; i<navarr.length; i++){
         var h = location.href;
         if(h.indexOf(navarr[i][0])>=0){

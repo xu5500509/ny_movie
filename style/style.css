@@ -165,7 +165,7 @@ a,button,input,li{outline:0}
 .list4 .s21{color:#373535;font-size:18px;font-weight:700}
 .list4 .s22{margin:8px 0;color:#333;font-size:14px}
 .list4 .s22 b{color:#0093e8}
-.list4 .s23{overflow:hidden;height:60px;line-height:20px}
+.list4 .s23{overflow:hidden;height:60px;line-height:20px;text-overflow: ellipsis;display: -webkit-box;  -webkit-line-clamp: 3;  -webkit-box-orient: vertical;}
 .list4 .s31{float:left}
 .list4 .s32{float:right}
 /*DEL*/

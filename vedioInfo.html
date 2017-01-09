@@ -14,6 +14,7 @@
     <script type="text/javascript" src="script/jquery.1.9.0.js"></script>
     <script type="text/javascript" src="script/common.js"></script>
     <script type="text/javascript" src="script/jquery.SuperSlide.2.1.js"></script>
+    <script type="text/javascript" src="script/jquery.raty.min.js"></script>
 </head>
 <body class="qky-xypg">
 <div class="head">
@@ -90,10 +91,18 @@
                             </b>
                         </p>
                     </div>
+                    <div style="border-left: 4px solid #e9e7e4; position: absolute;top: 10px;right: 75px;">
+                        <p style="margin-left: 10px; font-size: 25px;">影视评分：<span style="color: #0093e8;font-weight: 800;">8.9</span></p>
+                    </div>
                 </li>
             </ul>
-        </div>
 
+            <div class="demo">
+                <h2 style="float: left;margin-right: 10px;color: #595757;font-weight: 700;">评分：</h2>
+                <div id="precision-demo" class="target-demo"></div>
+                <div id="precision-hint" class="hint"></div>
+            </div>
+        </div>
 
         <!-- 发表影评 -->
         <div class="box-6">
@@ -223,6 +232,34 @@ function replay(e){
 
 $(function () {
     $('#videoArea').html('<video controls="controls" name="media" width="100%" height="545px" ><source src="'+'images/vedio/silence-trailer-1_h640w.mov'+'"></video>');
+
+    $('#precision-demo').raty({
+
+        path      : 'images/raty',
+
+        cancelOff : 'cancel-off-big.png',
+
+        cancelOn  : 'cancel-on-big.png',
+
+        size      : 24,
+
+        starHalf  : 'star-half-big.png',
+
+        starOff   : 'star-off-big.png',
+
+        starOn    : 'star-on-big.png',
+
+        target    : '#precision-hint',
+
+        cancel    : false,
+
+        targetKeep: true,
+        hints       : ['2', '4', '6', '8', '10'],
+        click: function (score, evt) {
+            var currentScore = $('#precision-hint').text();
+            alert("目前得分："+ score*2);
+        }
+    });
 });
 
 </script>

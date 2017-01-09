@@ -563,3 +563,24 @@ h4.latest-text {
     margin-left: 175px;
 }
 
+.demo {
+    margin-top: 20px;
+}
+.demo .target-demo {
+    display: inline-block;
+    vertical-align: middle;
+}
+.demo .target-demo img {
+    float: left;
+}
+.demo div.hint {
+    background-color: #F8F8F8;
+    border-radius: 5px;
+    color: #333;
+    display: inline-block;
+    height: 27px;
+    font-size: 1.5em;
+    text-align: center;
+    width: 135px;
+    vertical-align: middle;
+}
